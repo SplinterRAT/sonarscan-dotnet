@@ -1,6 +1,6 @@
-FROM mcr.microsoft.com/dotnet/sdk:5.0
+FROM mcr.microsoft.com/dotnet/sdk:5.0.102-ca-patch-buster-slim-amd64
 
-LABEL "com.github.actions.name"="sonarscan-dotnet"
+LABEL "com.github.actions.name"="sonarscan-dotnet-patched"
 LABEL "com.github.actions.description"="Sonarscanner for .NET 5 with pull request decoration support."
 LABEL "com.github.actions.icon"="check-square"
 LABEL "com.github.actions.color"="blue"
